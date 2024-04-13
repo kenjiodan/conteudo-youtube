@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(BebasNeue-Regular.ttf);
+}
+
+:root {
+    --cor01: #2C5759;
+    --cor02: #B0D7D9;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Bebas', sans-serif;
+    
+}
+
+div {
+    text-align: center;
+    min-height: 400px;
+    min-width: 320px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+div > h2 {
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+div > p {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+div > input {
+    background-color: rgb(255, 255, 255);
+    width: 265px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+div a {
+    text-decoration: none;
+    display: block;
+    color: var(--cor01);
+    font-size: 20px;
+}
+
+div a#continue {
+    background-color: var(--cor01);
+    margin-top: 35px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+}
+
+a#continue:hover {
+    background-color: #B0D7D9;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+div a#senha {
+    margin-top: 25px;
+}
+
+a#senha:hover {
+    color: var(--cor02);
+    transition-duration: 0.3s;
+}
+
+
