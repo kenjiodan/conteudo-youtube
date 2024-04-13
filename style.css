@@ -6,8 +6,8 @@
 }
 
 :root {
-    --cor01: #2C5759;
-    --cor02: #B0D7D9;
+    --cor01: #42008d;
+    --cor02: #a200ff;
 }
 
 * {
@@ -16,7 +16,9 @@
 }
 
 body {
-    background-color: beige;
+    background-image: url(purple.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: 'Bebas', sans-serif;
     
 }
@@ -50,6 +52,7 @@ div > p {
 
 div > input {
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
     width: 265px;
     height: 20px;
     margin-top: 5px;
@@ -73,7 +76,7 @@ div a#continue {
 }
 
 a#continue:hover {
-    background-color: #B0D7D9;
+    background-color: #ae00ff;
     color: black;
     transition-duration: 0.3s;
 }
